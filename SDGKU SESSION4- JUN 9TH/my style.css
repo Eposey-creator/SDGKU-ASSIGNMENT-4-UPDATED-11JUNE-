@@ -1,0 +1,277 @@
+/*global*/
+body{
+    font-family: 'Kurale', serif;
+}
+
+
+p{
+    line-height: 2;
+    font-size: 24px;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+
+h1,h2,h3,h4{
+
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+    color: rgb(196, 35, 69);
+    text-decoration:underline;
+    
+}
+
+/*header*/
+/* this header is for the very top of the website (software developer portion)*/
+
+header{
+    background-image: url(image\ 1.jpg);
+    color:rgba(12, 11, 0, 0.932);
+    height: 145px;
+    width: 100%;
+    text-align: center; 
+    font-size: 40PX;
+   
+  }
+
+ 
+  .icon{
+    
+    /* remeber to always add  a display flex when aligning items*/
+    display: flex;
+    align-items: center; /* use for vertical alignment*/
+    justify-content:space-evenly; /*use for horizontal alignment*/
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+    height: 100px;
+    background-color:gray;
+    border-radius: 50%;
+  }
+
+  
+ .icon i {
+     /* this section will adjust the actual icon"s size in color*/
+     font-size: 55px;
+     color:turquoise;
+ }
+
+ main{
+     text-align:center ;
+ }
+/*menu*/
+.menu{
+    background-color:black;
+    padding: 25px;
+    border: solid; color: gray;
+    border-radius: 10px;
+}
+    
+ /* these are the links in my menu bar */
+
+.a{
+color:white;
+text-decoration: none;
+font-size: 26px;
+margin-right: 50px;
+}
+/* this portion changes the font color upon click*/
+
+.menu :hover{
+    color: rgb(238, 116, 126);
+}
+
+/*list*/
+ul,ol{
+    background-color: rgb(175, 182, 181);
+    padding: 20px;
+    list-style-type: upper-roman;
+    list-style: none;
+    font-style: normal;
+    width: auto;
+    
+}
+ul li,ol li {   
+     background-color:palevioletred ;
+    padding:5px ;
+    margin-left:20px ;
+    margin-bottom: 5px;
+    text-decoration: underline;
+
+}
+/* this is section is for the icons on each list item (start)*/
+.li1{
+    list-style-image: url(css.png);
+    list-style-position:inside;
+}
+
+.li2{
+    list-style-image: url(java.jpg);
+    list-style-position: inside;
+}
+
+.li3{
+  list-style-image: url(jquery.png);
+  list-style-position: inside;
+}
+
+.li4{
+    list-style-image: url(java2.png);
+list-style-position:inside ;
+}
+
+.li5{
+    list-style-image: url(nodejs.png);
+    list-style-position: inside;
+}
+
+.li6{
+list-style-image: url(python.png);
+list-style-position:inside ;
+
+}
+
+.li7{
+    list-style-image: url(html.png);
+list-style-position:inside ;
+}
+
+.li8{
+    list-style-image: url(angular.png);
+list-style-position:inside ;
+}
+
+.li9{
+    list-style-image: url(ionic.png);
+list-style-position:inside ;
+}
+
+.li10{
+    list-style-image: url(net.png);
+list-style-position:inside ;
+}
+
+ 
+/* this is section is for the icons on each list item (ends)*/
+ 
+.li1 :hover{
+    color: orange;
+}
+    
+.li2 :hover{
+    color: turquoise;
+}
+   
+
+   .li3:hover{
+    color: orange;
+    
+   }
+   
+   
+   .li4 :hover{
+    color: turquoise;
+    
+   }
+   
+   .li5 :hover{
+    color: orange;
+    
+   }
+   
+   .li6 :hover{
+    color:turquoise;
+    
+   }
+
+   .li7 :hover{
+       color: orange;
+   }
+
+   .li8 :hover{
+       color: turquoise;
+   }
+   
+   .li9 :hover{
+       color: orange;
+   }
+
+   .li10 :hover{
+       color: turquoise;
+   }
+/* button style*/
+.button1{
+    background-color: turquoise;
+    font-style: initial;
+    color: black;
+    
+}            
+ .button2{
+     background-color: turquoise;
+     font-style: initial;
+ color: black;
+ 
+
+ }
+
+ .button :hover{
+     color: rgb(196, 35, 69);
+
+ }
+
+  /* this section is for my contact form (start) */  
+ 
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 6px solid rgb(196, 35, 69) ; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  /* Style of the submit button (before click) */
+  input[type=submit] {
+    background-color:turquoise;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor:progress;
+  }
+  
+  /* changes the color of the submit button (after click) */
+  input[type=submit]:hover {
+    background-color:orange;
+  }
+  
+  /* Adds background color and padding to contact form */
+  .container {
+    border-radius: 5px;
+    background-color: gray;
+    padding: 30px;
+  }
+  /* contact form ends*/
+
+footer{
+    background-color:rgb(196, 35, 69);
+    text-align: center ;
+    
+    
+}
+
+
